@@ -18,7 +18,6 @@ public class Main {
 
         boolean correctInput = false;
         boolean keepGoing = true;
-
         int calculatorMode = 0;
         String continueCalculator;
 
@@ -26,17 +25,15 @@ public class Main {
 
         // choose the calculators mode
         while (keepGoing) {
-            System.out.println("Please choose the calculators mode");
-            System.out.println("1: Sum 2: Difference 3: Product 4: Quotient 5: Sphere Volume 6: Rectangle volume 7: Volume of Square");
+            System.out.println("Please choose the calculators mode\n 1: Sum 2: Difference 3: Product 4: Quotient 5: Sphere Volume 6: Rectangle volume 7: Volume of Square");
             System.out.print("Mode: ");
+
             while (!correctInput) {
                 try {
                     calculatorMode = scanner.nextInt();
-                    if (calculatorMode < 1 || calculatorMode > 7) {
-                        System.out.println("That is not a option please try again");
-                    } else {
-                        correctInput = true;
-                    }
+
+                    if (calculatorMode < 1 || calculatorMode > 7) System.out.println("That is not a option please try again");
+                    else correctInput = true;
                 } catch (InputMismatchException e) {
                     System.out.println("That is not a option please try again");
                     scanner.next();
@@ -44,7 +41,7 @@ public class Main {
 
             }
 
-            // get number input from user AND DISPLAY OUTPUT  depending on calculator mode
+            // get number input from user and display answer depending on calculator mode
             correctInput = false;
             while (!correctInput) {
                 try {
@@ -71,7 +68,7 @@ public class Main {
                         System.out.println("Type the Diameter");
                         System.out.print("D: ");
                         d = scanner.nextInt();
-                        System.out.println("The diameter is: " + ((Math.PI * Math.pow(d, 3)) / 6));
+                        System.out.println("The volume is: " + ((Math.PI * Math.pow(d, 3)) / 6));
                     } else {
                         System.out.println("Type the Side length: ");
                         System.out.print("S: ");
@@ -92,12 +89,12 @@ public class Main {
 
                 System.out.println("Would you like to continue?");
                 System.out.print("Y or N: ");
-                continueCalculator = scanner.next().trim();
+                continueCalculator = (scanner.next().trim()).toLowerCase();
 
-                if (continueCalculator.equals("N") || continueCalculator.equals("n")) {
+                if (continueCalculator.equals("n")) {
                     keepGoing = false;
                     continueCorrectInput = true;
-                } else if (continueCalculator.equals("Y") || continueCalculator.equals("y")) {
+                } else if (continueCalculator.equals("y")) {
                     correctInput = false;
                     calculatorMode = 0;
                     continueCorrectInput = true;
