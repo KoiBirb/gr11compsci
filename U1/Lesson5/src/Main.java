@@ -9,6 +9,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
+    static double x, y, l, w, d;
     public static void main(String[] args) {
 //        System.out.println(6*7);
 //        System.out.println(12 + 4 * 6);
@@ -19,7 +20,6 @@ public class Main {
         boolean keepGoing = true;
 
         int calculatorMode = 0;
-        double x, y, l, w, d;
         String continueCalculator;
 
         Scanner scanner = new Scanner(System.in);
@@ -44,37 +44,21 @@ public class Main {
 
             }
 
-            // get number input from user depending on calculator mode
+            // get number input from user AND DISPLAY OUTPUT  depending on calculator mode
             correctInput = false;
             while (!correctInput) {
                 try {
                     if (calculatorMode == 1) {
-                        System.out.println("Type the numbers you want to add");
-                        System.out.print("X: ");
-                        x = scanner.nextInt();
-                        System.out.print("Y: ");
-                        y = scanner.nextInt();
+                        defaultInput(scanner,"Type the numbers you want to add");
                         System.out.println("The sum is: " + (x + y));
                     } else if (calculatorMode == 2) {
-                        System.out.println("Type the numbers you want to subtract");
-                        System.out.print("X: ");
-                        x = scanner.nextInt();
-                        System.out.print("Y: ");
-                        y = scanner.nextInt();
+                        defaultInput(scanner,"Type the numbers you want to subtract");
                         System.out.println("The difference is: " + (x - y));
                     } else if (calculatorMode == 3) {
-                        System.out.println("Type the numbers you want to multiply");
-                        System.out.print("X: ");
-                        x = scanner.nextInt();
-                        System.out.print("Y: ");
-                        y = scanner.nextInt();
+                        defaultInput(scanner, "Type the numbers you want to multiply");
                         System.out.println("The product is: " + (x * y));
                     } else if (calculatorMode == 4) {
-                        System.out.println("Type the numbers you want to divide");
-                        System.out.print("X: ");
-                        x = scanner.nextInt();
-                        System.out.print("Y: ");
-                        y = scanner.nextInt();
+                        defaultInput(scanner, "Type the numbers you want to divide");
                         System.out.println("The quotient is: " + (x / y) + "And the remainder is: " + (x % y));
                     } else if (calculatorMode == 5) {
                         System.out.println("Type the Length and Width");
@@ -102,7 +86,7 @@ public class Main {
             }
 
 
-
+            // ask user to continue
             boolean continueCorrectInput = false;
             while (!continueCorrectInput) {
 
@@ -123,5 +107,13 @@ public class Main {
                 }
             }
         }
+    }
+    //Asks the user for 2 decimal inputs
+    private static void defaultInput(Scanner scanner, String message){
+        System.out.println(message);
+        System.out.print("X: ");
+        x = scanner.nextInt();
+        System.out.print("Y: ");
+        y = scanner.nextInt();
     }
 }
