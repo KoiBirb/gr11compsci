@@ -8,6 +8,8 @@ public class Main {
         double distance = scanner.nextDouble();
         System.out.print("Time taken (in hours): ");
         double time = scanner.nextDouble();
-        System.out.println("Average speed: " + distance / time + " km/h");
+        System.out.print("Average speed: " + distance / time + " km/h");
+
+
     }
 }
