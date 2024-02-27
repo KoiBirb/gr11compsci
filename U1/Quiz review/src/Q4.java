@@ -6,7 +6,7 @@ public class Q4 {
 
         System.out.print("How many minutes: ");
         int minutes = scanner.nextInt();
-        System.out.println("\nHours: " + minutes/60 + ":" + minutes%60);
+        System.out.printf("\nHours: " + minutes/60 + ":%02d", minutes%60);
 
         scanner.close();
     }
