@@ -6,6 +6,8 @@ public class JavaEats {
         Scanner scanner = new Scanner(System.in);
         int burgers, falafels, salads, pizzas,drinks = 0;
 
+
+
         System.out.println("""
                 Welcome to Java Eats!
                 =======================
