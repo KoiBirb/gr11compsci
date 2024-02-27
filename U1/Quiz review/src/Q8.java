@@ -14,5 +14,7 @@ public class Q8 {
         b = scanner.nextDouble();
 
         System.out.println("The hypotenuse is: " + Math.sqrt((Math.pow(a,2.0))+(Math.pow(b,2.0))));
+
+        scanner.close();
     }
 }
