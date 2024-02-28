@@ -13,7 +13,7 @@ public class Code1Leo {
         Scanner sc = new Scanner(System.in);
 
         // Declare variables used in the program
-        int x = 1,y = 1,z = 1;
+        int x,y,z;
         String name;
         double answer, average;
 
