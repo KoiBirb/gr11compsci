@@ -6,12 +6,14 @@ public class Main {
         System.out.println("A number please!: ");
         int num = scanner.nextInt();
 
-        if (num > 0) {
-            System.out.println("Positive");
-        } else if (num < 0) {
+        if (num >= 0) {
+            if (num == 0){
+                System.out.println("Zero");
+            } else {
+                System.out.println("Positive");
+            }
+        } else{
             System.out.println("Negative");
-        } else {
-            System.out.println("Zero");
         }
 
         System.out.println("Whats ur birth year?: ");
