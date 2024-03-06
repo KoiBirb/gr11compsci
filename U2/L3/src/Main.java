@@ -62,7 +62,9 @@ public class Main {
         int gradeLevel;
         if (grade < 50) {
             gradeLevel = 0;
-        } else {
+        } else if (grade == 100){
+            gradeLevel = 5;
+        }else {
             gradeLevel = (grade - 50) / 10 + 1;
         }
 
@@ -83,6 +85,7 @@ public class Main {
             case 5:
                 System.out.println("Level 4");
                 break;
+
             default:
                 System.out.println("Invalid grade");
                 break;
