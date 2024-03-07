@@ -84,14 +84,30 @@ public class Main {
 
             // Perform operation and display output
             switch (operation) {
-                case 1 -> System.out.println("The answer is: " + (x + y));
-                case 2 -> System.out.println("The answer is: " + (x - y));
-                case 3 -> System.out.println("The answer is: " + (x * y));
-                case 4 -> System.out.println("The answer is: " + (x / y));
-                case 5 -> System.out.println("The answer is: " + Math.pow(x, y));
-                case 6 -> System.out.println("The answer is: " + (x + y + z) / 3);
-                case 7 -> System.out.println("The answer is: " + Math.toDegrees(Math.sin(Math.toRadians(x))));
-                case 8 -> System.out.println("The answer is: " + Math.cos(x));
+                case 1:
+                    System.out.println("The answer is: " + (x + y));
+                    break;
+                case 2:
+                    System.out.println("The answer is: " + (x - y));
+                    break;
+                case 3:
+                    System.out.println("The answer is: " + (x * y));
+                    break;
+                case 4:
+                    System.out.println("The answer is: " + (x / y));
+                    break;
+                case 5:
+                    System.out.println("The answer is: " + Math.pow(x, y));
+                    break;
+                case 6:
+                    System.out.println("The answer is: " + (x + y + z) / 3);
+                    break;
+                case 7:
+                    System.out.println("The answer is: " + Math.toDegrees(Math.sin(Math.toRadians(x))));
+                    break;
+                case 8:
+                    System.out.println("The answer is: " + Math.cos(x));
+                    break;
             }
 
             System.out.println("Would you like to perform another operation? (y/n)");
