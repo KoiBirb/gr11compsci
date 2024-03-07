@@ -35,7 +35,7 @@ public class Main {
                 break;
         }
         System.out.println("Whats ur mass: ");
-        double mass = scanner.nextDouble();
+        double mass = scanner.nextDouble() * 9.8;
 
         System.out.println("What planet?");
         System.out.println("1. Vulcan 2.Cybertron 3.Krypton 4.Alderaan");
