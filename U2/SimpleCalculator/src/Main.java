@@ -110,6 +110,7 @@ public class Main {
                     break;
             }
 
+            // Ask to keep running
             System.out.println("Would you like to perform another operation? (y/n)");
             String response = scanner.next().trim().toLowerCase();
 
