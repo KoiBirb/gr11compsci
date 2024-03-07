@@ -103,10 +103,10 @@ public class Main {
                     System.out.println("The answer is: " + (x + y + z) / 3);
                     break;
                 case 7:
-                    System.out.println("The answer is: " + Math.toDegrees(Math.sin(Math.toRadians(x))));
+                    System.out.println("The answer is: " + Math.sin(Math.toRadians(x)));
                     break;
                 case 8:
-                    System.out.println("The answer is: " + Math.cos(x));
+                    System.out.println("The answer is: " + Math.cos(Math.toRadians(x)));
                     break;
             }
 
