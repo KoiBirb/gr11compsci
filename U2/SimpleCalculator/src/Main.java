@@ -61,7 +61,7 @@ public class Main {
                         x = scanner.nextDouble();
                         System.out.print("Enter the second number: ");
                         y = scanner.nextDouble();
-                        System.out.println("Enter the third number: ");
+                        System.out.println("Entefr the third number: ");
                         z = scanner.nextDouble();
                     } else if (operation < 7) {
                         System.out.print("Enter the first number: ");
