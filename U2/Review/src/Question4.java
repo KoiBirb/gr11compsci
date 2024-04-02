@@ -24,7 +24,8 @@ public class Question4 {
             // Add the next number to the necklace
             necklace.add(index+1, (necklace.get(index-1) + necklace.get(index)) % 10);
             index++; steps++;
-        } while (!Objects.equals(necklace.get(0), necklace.get(index - 1)) || !Objects.equals(necklace.get(1), necklace.get(index)));
+        } while (!Objects.equals(necklace.get(0), necklace.get(index - 1))
+                || !Objects.equals(necklace.get(1), necklace.get(index)));
 
         // Print the necklace and the number of steps
         for (int currentNum : necklace) System.out.print(currentNum + " ");
