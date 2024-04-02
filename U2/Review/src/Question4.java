@@ -30,5 +30,7 @@ public class Question4 {
         // Print the necklace and the number of steps
         for (int currentNum : necklace) System.out.print(currentNum + " ");
         System.out.println("\nIt took " + steps + " steps to get back to the starting numbers");
+
+        scanner.close();
     }
 }

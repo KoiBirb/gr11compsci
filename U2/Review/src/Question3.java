@@ -45,5 +45,6 @@ public class Question3 {
                 keepGoing = false;
             }
         }
+        scanner.close();
     }
 }
