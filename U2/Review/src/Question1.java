@@ -17,15 +17,13 @@ public class Question1 {
        int elapsedTime = scanner.nextInt();
 
        // Calculate the final hour
-       int finalHour = startingHour + elapsedTime;
+       int finalHour = (startingHour + elapsedTime) % 24; // Use modulo to handle hours greater than 24
 
        // Check if the AM or PM is correct
-       if (AMorPM.equals("AM") && finalHour > 12) {
-           System.out.println("The time is " + (finalHour - 12) + " PM");
-       } else if ("PM".equals(AMorPM) && finalHour > 12) {
-           System.out.println("The time is " + (finalHour + - 12) + " AM");
-       } else {
-           System.out.println("The time is " + finalHour + " " + AMorPM);
+       if (finalHour > 12){
+           finalHour -= 12;
+           AMorPM = AMorPM.equals("AM") ? "PM" : "AM"; // Switch AM to PM or vice versa
        }
+       System.out.println("The time is " + finalHour + " " + AMorPM);
     }
 }
