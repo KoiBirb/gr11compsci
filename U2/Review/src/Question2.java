@@ -9,6 +9,7 @@ public class Question2 {
         int guesses = 0;
         boolean keepPlaying = true;
 
+        // Get min & max numbers
         System.out.print("What is the maximum number?: ");
         int max = scanner.nextInt();
         System.out.println("What is the minimum number?: ");
@@ -19,6 +20,7 @@ public class Question2 {
         System.out.println("The random number is: " + randomNum);
 
         while (keepPlaying){
+            // Get the user's guess and check if it is correct
             System.out.println("Guess a number between " + min + " and " + max);
             int guess = scanner.nextInt();
             if (guess == randomNum){

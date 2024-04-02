@@ -9,6 +9,7 @@ public class Question3 {
         boolean keepGoing = true, invalidOperation = false;
 
         while (keepGoing){
+            // User inputs
             System.out.println("What operation would you like to perform? 1.Addition 2.Multiplication 3.Exponent");
             operation = scanner.nextInt();
 
@@ -17,6 +18,7 @@ public class Question3 {
             System.out.println("Enter the second number: ");
             y = scanner.nextDouble();
 
+            // Perform the operation
             switch (operation){
                 case 1:
                     System.out.println("The sum is: " + (x + y));
@@ -31,10 +33,12 @@ public class Question3 {
                     System.out.println("Invalid operation");
                     invalidOperation = true;
             }
+            // Check if the operation was invalid
             if (invalidOperation){
                break;
             }
 
+            // Ask if the user wants to perform another operation
             System.out.println("Would you like to perform another operation? 1.Yes 2.No");
             operation = scanner.nextInt();
             if (operation == 2) {
