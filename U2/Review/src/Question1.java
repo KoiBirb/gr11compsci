@@ -22,7 +22,7 @@ public class Question1 {
        // Check if the AM or PM is correct
        if (finalHour >= 12){
            finalHour = (finalHour == 12) ? 12 : finalHour - 12;
-           AMorPM = AMorPM.equals("AM") ? "PM" : "AM"; // Switch AM to PM or vice versa
+           AMorPM = AMorPM.equals("AM") ? "PM" : "AM";
        }
        System.out.println("The time is " + finalHour + " " + AMorPM);
        scanner.close();
