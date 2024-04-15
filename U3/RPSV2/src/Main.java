@@ -20,7 +20,7 @@ public class Main {
         boolean playAgain = true, validInput = false;
 
         // Array to map the number choice to a word
-        String[] choicesArray = {"","ROCK", "PAPER", "SCISSORS"};
+        String[] choicesArray = {"", "ROCK", "PAPER", "SCISSORS"};
         int[] choicesCounter = {0, 0, 0};
         System.out.println("Let’s Play Rock Paper Scissors!!");
 
