@@ -1,3 +1,4 @@
+import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -11,19 +12,27 @@ public class Main {
         int[] guess, code;
 
         // Get number of pegs and colours then initialize code
-        System.out.println("Enter the number of pegs (2-8): ");
+        System.out.print("Enter the number of pegs (2-8): ");
         while (!validInput) {
-            pegCount = scanner.nextInt();
+            try {
+                pegCount = scanner.nextInt();
+            } catch (InputMismatchException e){
+                scanner.next();
+            }
             if (pegCount >= 2 && pegCount <= 8) validInput = true;
-            else System.out.println("Invalid input. Please enter a number between 2 and 8.");
+            else System.out.print("Invalid input. Please enter a number between 2 and 8: ");
         }
-        System.out.println("Enter the number of colors (" + pegCount + "-10): ");
 
+        System.out.print("Enter the number of colors (" + pegCount + "-10): ");
         validInput = false;
         while (!validInput) {
-            colourCount = scanner.nextInt();
+            try {
+                colourCount = scanner.nextInt();
+            } catch (InputMismatchException e){
+                scanner.next();
+            }
             if (colourCount >= pegCount && colourCount <= 10) validInput = true;
-            else System.out.println("Invalid input. Please enter a number between " + pegCount + " and 10.");
+            else System.out.print("Invalid input. Please enter a number between " + pegCount + " and 10: ");
         }
 
         code = getCode(pegCount, colourCount);
@@ -34,8 +43,17 @@ public class Main {
             // Increment round and get user input
             round++;
             for (int i = 0; i < pegCount; i++) {
-                System.out.print("Colour for peg " + (i + 1) + ": ");
-                guess[i] = scanner.nextInt();
+                validInput = false;
+                while (!validInput) {
+                    System.out.print("Colour for peg " + (i + 1) + ": ");
+                    try {
+                        guess[i] = scanner.nextInt();
+                    } catch (InputMismatchException e){
+                        scanner.next();
+                    }
+                    if (guess[i] >= 0 && guess[i] <= colourCount) validInput = true;
+                    else System.out.print("Invalid input. Please enter a number between 0 and " + colourCount + ": ");
+                }
             }
             // Check if user has won
             if (checkWin(guess, code)) keepGoing = false;
@@ -92,13 +110,9 @@ public class Main {
     public static void getClues(int[] guess, int[] code){
         int pegsCorrect = 0, coloursCorrect = 0;
         for(int i = 0; i < guess.length; i++){
-            if(guess[i] == code[i]){
-                pegsCorrect++;
-            }
+            if(guess[i] == code[i]) pegsCorrect++;
             for (int k : code) {
-                if (guess[i] == k) {
-                    coloursCorrect++;
-                }
+                if (guess[i] == k) coloursCorrect++;
             }
         }
         System.out.println("You have " + pegsCorrect + " peg(s) correct and " + coloursCorrect + " color(s) correct.");
