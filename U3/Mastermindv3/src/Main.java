@@ -17,9 +17,10 @@ public class Main {
             System.out.print("Guess #" + round + ": ");
             // Get guess and check if user has won
             inputManager.askGuess();
-            if (inputManager.checkWin(inputManager.getGuess(), codeGenerator.getCode())) keepGoing = false;
-            else inputManager.getClues(inputManager.getGuess(), codeGenerator.getCode());
+            if (codeGenerator.checkWin(inputManager.getGuess(), codeGenerator.getCode())) keepGoing = false;
+            else codeGenerator.getClues(inputManager.getGuess(), codeGenerator.getCode());
         }
+
         System.out.println("You guessed the code in " + round + " turns.");
         System.out.println("Thanks for playing!\n");
     }
