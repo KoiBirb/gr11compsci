@@ -1,4 +1,6 @@
 
+import com.sun.source.tree.UsesTree;
+
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
@@ -11,6 +13,7 @@ public class Main {
 
         for (int i = 0; i < 20; i++) {
             randomNumbers.add(random.nextInt(100));
+
         }
 
         int sum = 0;
