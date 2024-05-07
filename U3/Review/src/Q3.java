@@ -117,35 +117,31 @@ public class Q3 {
 
     public static char[] merge (char[] left, char[] right){
         char[] temp = new char[left.length + right.length];
-        int[] tempInt = new int[left.length + right.length];
-        for (int i = 0; i < temp.length; i++){
-            tempInt[i] = (int) temp[i];
-        }
         int leftCounter = 0, rightCounter = 0, currentValue = 0;
 
         while (leftCounter < left.length && rightCounter < right.length){
             if (left[leftCounter] < right[rightCounter]){
-                tempInt[currentValue] = left[leftCounter];
+                temp[currentValue] = left[leftCounter];
                 leftCounter++;
             } else {
-                tempInt[currentValue] = right[rightCounter];
+                temp[currentValue] = right[rightCounter];
                 rightCounter++;
             }
             currentValue++;
         }
 
         while (leftCounter < left.length){
-            tempInt[currentValue] = left[leftCounter];
+            temp[currentValue] = left[leftCounter];
             leftCounter++;
             currentValue++;
         }
 
         while (rightCounter < right.length){
-            tempInt[currentValue] = right[rightCounter];
+            temp[currentValue] = right[rightCounter];
             rightCounter++;
             currentValue++;
         }
 
-        return tempInt;
+        return temp;
     }
 }
