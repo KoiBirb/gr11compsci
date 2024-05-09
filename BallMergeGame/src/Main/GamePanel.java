@@ -2,14 +2,13 @@ package Main;
 
 import Balls.*;
 import hsa2.GraphicsConsole;
-
 import java.awt.*;
 import java.util.ArrayList;
 
 public class GamePanel implements Runnable {
     public GraphicsConsole gc = new GraphicsConsole(600, 800);
     private Thread thread;
-    public ArrayList<SuperBall> balls = new ArrayList<>();
+    public static ArrayList<SuperBall> balls = new ArrayList<>();
 
     private final int FPS = 60;
 
@@ -36,8 +35,6 @@ public class GamePanel implements Runnable {
         for (SuperBall ball : balls) {
             ball.draw(gc);
         }
-
-
     }
 
     @Override
