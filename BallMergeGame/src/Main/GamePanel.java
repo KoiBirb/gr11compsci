@@ -1,5 +1,6 @@
 package Main;
 
+import Ballhandlers.Spawner;
 import Balls.*;
 import hsa2.GraphicsConsole;
 import java.awt.*;
@@ -8,6 +9,7 @@ import java.util.ArrayList;
 public class GamePanel implements Runnable {
     public GraphicsConsole gc = new GraphicsConsole(600, 800);
     private Thread thread;
+    private Spawner spawner = new Spawner(gc);
     public static ArrayList<SuperBall> balls = new ArrayList<>();
 
     private final int FPS = 60;
@@ -22,16 +24,19 @@ public class GamePanel implements Runnable {
 
     public void startGame() {
         thread = new Thread(this);
+        balls.add(new Cherry(100, 0));
         thread.start();
     }
 
     public void update() {
+        spawner.update();
         for (SuperBall ball : balls) {
             ball.update();
         }
     }
 
     public void draw() {
+        spawner.draw();
         for (SuperBall ball : balls) {
             ball.draw(gc);
         }
