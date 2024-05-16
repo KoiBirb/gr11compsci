@@ -7,6 +7,8 @@ import java.awt.*;
 import java.util.ArrayList;
 
 public class GamePanel implements Runnable {
+
+    // initialize classes
     public GraphicsConsole gc = new GraphicsConsole(600, 800);
     private Thread thread;
     private Spawner spawner = new Spawner(gc);
@@ -14,6 +16,7 @@ public class GamePanel implements Runnable {
 
     private final int FPS = 60;
 
+    // set default settings
     public GamePanel() {
         gc.setAntiAlias(true);
         gc.setLocationRelativeTo(null);
@@ -22,12 +25,17 @@ public class GamePanel implements Runnable {
         gc.clear();
     }
 
+    /**
+     * Creates a thread that run the game
+     */
     public void startGame() {
         thread = new Thread(this);
-        balls.add(new Cherry(100, 0));
         thread.start();
     }
 
+    /**
+     * Updates the game
+     */
     public void update() {
         spawner.update();
         for (SuperBall ball : balls) {
@@ -35,6 +43,9 @@ public class GamePanel implements Runnable {
         }
     }
 
+    /**
+     * Draws the game
+     */
     public void draw() {
         spawner.draw();
         for (SuperBall ball : balls) {
@@ -42,6 +53,9 @@ public class GamePanel implements Runnable {
         }
     }
 
+    /**
+     * Runs the game
+     */
     @Override
     public void run() {
         // Delta method FPS clock

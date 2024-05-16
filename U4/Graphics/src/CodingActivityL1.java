@@ -1,4 +1,3 @@
-package Intro.src;
 
 import hsa2.GraphicsConsole;
 

@@ -1,4 +1,4 @@
-package Intro.src;
+
 import java.awt.Color;
 import hsa2.GraphicsConsole;
 /*
