@@ -1,4 +1,12 @@
-package BasketBall.Entitys;
+/*
+* SuperEntity
+* May 21, 2024
+* Leo Bogaert
+* This class is the parent class for all entities in the game.
+* It contains the x and y position, the rotation, the x and y velocity, the colour and the GraphicsConsole object.
+ */
+
+package BasketBall;
 import hsa2.GraphicsConsole;
 import java.awt.*;
 

@@ -1,10 +1,16 @@
-package BasketBall.Entitys;
-import BasketBall.Main;
+/*
+ * Ball.java
+ * May 21, 2024
+ * Leo Bogaert
+ * Defines a ball object that can be moved with the mouse
+ */
+
+package BasketBall;
 import hsa2.GraphicsConsole;
 import java.awt.*;
 import static java.lang.Math.*;
 
-public class Ball extends SuperEntity{
+public class Ball extends SuperEntity {
     public int mouseXOffset,mouseYOffset, lastX, lastY;
     public final int radius, diameter;
     private boolean isHeld;
@@ -34,9 +40,9 @@ public class Ball extends SuperEntity{
         vx *= 0.95;
         vy *= 0.95;
 
-        if (!checkWallCollision() && !isHeld
-                && !checkNetCollision(main.net.leftNetRect)
-                && !checkNetCollision(main.net.rightNetRect)) {
+        handleWallCollision();
+
+        if (!isHeld){
             vy += 1;
             x += (int) vx;
             y += (int) vy;
@@ -51,20 +57,17 @@ public class Ball extends SuperEntity{
         gc.fillOval(x, y, diameter, diameter);
     }
 
-    private boolean checkWallCollision() {
+    private void handleWallCollision() {
         if (x <= 0) {
             x = 1;
             vx *= -1;
-            return true;
         } else if (x >= 800 - diameter) {
             x = 799 - diameter;
             vx *= -1;
-            return true;
         }
         if (y <= 0) {
             y = 1;
             vy *= -1;
-            return true;
         } else if (y >= 800 - diameter) {
            if (Math.abs(vy) > 4) {
                y = 799 - diameter;
@@ -73,9 +76,7 @@ public class Ball extends SuperEntity{
                y = 800-diameter;
                vy = 0;
            }
-            return true;
         }
-        return false;
     }
     private boolean checkMouseCollision() {
         mouseXOffset = gc.getMouseX() - x;
@@ -87,28 +88,5 @@ public class Ball extends SuperEntity{
             }
         }
         return false;
-    }
-
-    private boolean checkNetCollision(Rectangle r) {
-        boolean collision = false;
-
-        int edgeX = x;
-        int edgeY = y;
-
-        if (x > r.x)
-            edgeX = r.x;
-        else if (x < r.x + r.width)
-            edgeX = r.x + r.width;
-        if (y > r.y)
-            edgeY = r.y;
-        else if (y < r.y + r.height)
-            edgeY = r.y + r.height;
-
-        if (Math.sqrt(pow((x + radius) - edgeX, 2) + pow((y + radius) - edgeY, 2)) <= radius) {
-            collision = true;
-            vx *= -1;
-            vy *= -1;
-        }
-        return collision;
     }
 }
