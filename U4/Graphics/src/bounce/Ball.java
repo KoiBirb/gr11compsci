@@ -3,7 +3,7 @@ package bounce;
 import java.awt.*;
 
 public class Ball {
-    int x, y, diameter, vx, vy, weight;
+    public int x, y, diameter, vx, vy, weight;
     Color colour;
 
     public Ball() {

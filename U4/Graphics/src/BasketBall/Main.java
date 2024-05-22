@@ -19,6 +19,7 @@ public class Main {
     Ball b;
     Net net;
     ConfettiSpawner cSpawn;
+    CloudHandler cHandler;
 
     public static void main(String[] args) {
         new Main();
@@ -46,6 +47,8 @@ public class Main {
         synchronized (gc) {
             gc.clear();
             gc.clearRotation();
+
+            cHandler.draw(); // Clouds
 
             // Ground
             gc.setStroke(1);
@@ -82,6 +85,7 @@ public class Main {
         b.update();
         net.update();
         cSpawn.update();
+        cHandler.update();
     }
 
     /**
@@ -91,6 +95,7 @@ public class Main {
         b = new Ball(gc, this);
         net = new Net(365, 455, gc, this);
         cSpawn = new ConfettiSpawner(gc);
+        cHandler = new CloudHandler(gc);
 
         gc.setBackgroundColor(Color.WHITE);
         gc.setAntiAlias(true);
