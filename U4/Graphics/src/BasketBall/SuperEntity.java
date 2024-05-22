@@ -16,6 +16,16 @@ public class SuperEntity {
     public Color colour;
     public final GraphicsConsole gc;
 
+    /**
+     * Constructor for the SuperEntity class
+     * @param x integer initial x position
+     * @param y integer initial y position
+     * @param rotation  integer initial rotation
+     * @param vx double initial x velocity
+     * @param vy double initial y velocity
+     * @param colour Color object of the entity
+     * @param gc HSA2 GraphicsConsole object
+     */
     public SuperEntity (int x, int y, int rotation, double vx, double vy, Color colour, GraphicsConsole gc){
         this.x = x;
         this.y = y;

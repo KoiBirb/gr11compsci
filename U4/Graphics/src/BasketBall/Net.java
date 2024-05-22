@@ -14,6 +14,13 @@ public class Net {
     public Rectangle centreNetRect;
     Main main;
 
+    /**
+     * Constructor for the Net class
+     * @param x x position of the net
+     * @param y y position of the net
+     * @param gc HSA2 GraphicsConsole object
+     * @param main Main class object
+     */
     public Net(int x, int y, GraphicsConsole gc, Main main){
         this.x = x;
         this.y = y;
