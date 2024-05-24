@@ -34,10 +34,14 @@ public class Ball extends Rectangle {
             x = 800 - width;
             vx *= -1;
         } else if (y <= 0) {
-            y = 0;
+            y = 400;
+            x = 400;
+            Pong.p1Score++;
             vy *= -1;
         } else if (y >= 800 - height) {
-            y = 800 - height;
+            y = 400;
+            x = 400;
+            Pong.p2Score++;
             vy *= -1;
         }
     }

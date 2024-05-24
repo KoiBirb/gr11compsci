@@ -9,6 +9,7 @@ public class Pong {
 
     static final GraphicsConsole gc = new GraphicsConsole(800, 800);
     final int SLEEPTIME = 5;
+    static int p1Score = 0, p2Score = 0;
     static Paddle p1;
     static Paddle p2;
 
@@ -51,6 +52,10 @@ public class Pong {
             p1.draw();
             p2.draw();
             ball.draw();
+
+            gc.setColor(Color.WHITE);
+            gc.drawString("Player 1: " + p1Score, 10, 10);
+            gc.drawString("Player 2: " + p2Score, 10, 20);
         }
     }
 }

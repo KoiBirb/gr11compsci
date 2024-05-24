@@ -16,13 +16,10 @@ public class SuperBall {
         this.isDropped = false;
     }
 
-    public void addGravity() {
-        y += (int) (1);
-    }
-
     public void update() {
         if (!isDropped && y < 600){
-            addGravity();
+            // gravity
+            y += 1;
         }
     }
 
