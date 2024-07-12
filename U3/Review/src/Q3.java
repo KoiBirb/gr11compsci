@@ -40,7 +40,7 @@ public class Q3 {
         int leftCounter = 0, rightCounter = 0, currentValue = 0;
 
         while (leftCounter < left.length && rightCounter < right.length){
-            if (left[leftCounter] < right[rightCounter]){
+            if (left[leftCounter] > right[rightCounter]){
                 temp[currentValue] = left[leftCounter];
                 leftCounter++;
             } else {
@@ -80,7 +80,7 @@ public class Q3 {
         int leftCounter = 0, rightCounter = 0, currentValue = 0;
 
         while (leftCounter < left.length && rightCounter < right.length){
-            if (left[leftCounter] < right[rightCounter]){
+            if (left[leftCounter] > right[rightCounter]){
                 temp[currentValue] = left[leftCounter];
                 leftCounter++;
             } else {
