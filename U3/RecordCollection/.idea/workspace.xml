@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6540143b-2418-452c-b118-fff321dbc6d3" name="Changes" comment="BallmergeGame first commit">
+      <change beforePath="$PROJECT_DIR$/../../U4/Graphics/src/BasketBall/ConfettiSpawner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../U4/Graphics/src/BasketBall/ConfettiSpawner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../U4/Graphics/src/BasketBall/Entitys/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../U4/Graphics/src/BasketBall/Ball.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../U4/Graphics/src/BasketBall/Entitys/Confetti.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../U4/Graphics/src/BasketBall/Confetti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../U4/Graphics/src/BasketBall/Entitys/SuperEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../U4/Graphics/src/BasketBall/SuperEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../U4/Graphics/src/BasketBall/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../U4/Graphics/src/BasketBall/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../U4/Graphics/src/BasketBall/Net.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../U4/Graphics/src/BasketBall/Net.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;KoiBirb&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/KoiBirb/gr11compsci.git&quot;,
+    &quot;accountId&quot;: &quot;62abba00-7084-45b4-bbd6-be1f94780f95&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2gBT8DRGXBqDmmuUEer9YEulAT4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.LeoRecordCollection.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/koi/GitHub/Java g11/U3/RecordCollection&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6540143b-2418-452c-b118-fff321dbc6d3" name="Changes" comment="" />
+      <created>1715169810940</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715169810940</updated>
+      <workItem from="1715169812038" duration="4071000" />
+      <workItem from="1715174017835" duration="30000" />
+      <workItem from="1715174949883" duration="1094000" />
+      <workItem from="1715216948477" duration="66000" />
+      <workItem from="1715268121194" duration="43000" />
+      <workItem from="1715788830807" duration="4000" />
+      <workItem from="1716297740727" duration="6000" />
+    </task>
+    <task id="LOCAL-00001" summary="BallmergeGame first commit">
+      <option name="closed" value="true" />
+      <created>1715173789693</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715173789693</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="BallmergeGame first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="BallmergeGame first commit" />
+  </component>
+</project>

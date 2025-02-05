@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cceb0ce0-0afa-4b31-9a38-5b775db7ce8c" name="Changes" comment="review">
+      <change afterPath="$PROJECT_DIR$/src/forBro1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled1/src/forBro1.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;KoiBirb&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/KoiBirb/gr11compsci.git&quot;,
+    &quot;accountId&quot;: &quot;62abba00-7084-45b4-bbd6-be1f94780f95&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2cPEMuMLffUJ3GnX3SyS1t5fVij" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.ArtWithMath.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AwesomeGame.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Bounce1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Bounce4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Fading.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GojoDomainExpansionDrawing.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GraphicsBasics.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InteractiveBalls.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Pong.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RectangleMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Timer2Example.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TimerExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.forBro1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/koi/GitHub/Java g11/U4/Graphics&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Assets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.RectangleMain">
+    <configuration name="GraphicsBasics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GraphicsBasics" />
+      <module name="Lesson1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RectangleMain" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="BasketBall.Main" />
+      <module name="Lesson1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.RectangleMain" />
+      <item itemvalue="Application.GraphicsBasics" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GraphicsBasics" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cceb0ce0-0afa-4b31-9a38-5b775db7ce8c" name="Changes" comment="" />
+      <created>1708004769204</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708004769204</updated>
+      <workItem from="1715344199286" duration="5821000" />
+      <workItem from="1715356744650" duration="2155000" />
+      <workItem from="1715447953649" duration="27539000" />
+      <workItem from="1715788837557" duration="964000" />
+      <workItem from="1715860894385" duration="1328000" />
+      <workItem from="1715862262189" duration="3342000" />
+      <workItem from="1715948163529" duration="5768000" />
+      <workItem from="1715958912277" duration="2487000" />
+      <workItem from="1715962278372" duration="12834000" />
+      <workItem from="1715978097905" duration="7008000" />
+      <workItem from="1716054915370" duration="4000" />
+      <workItem from="1716054939213" duration="116000" />
+      <workItem from="1716055118234" duration="18550000" />
+      <workItem from="1716297748239" duration="17053000" />
+      <workItem from="1716468884034" duration="33000" />
+      <workItem from="1716468955369" duration="1057000" />
+      <workItem from="1716470040226" duration="378000" />
+      <workItem from="1716470438300" duration="4192000" />
+      <workItem from="1716812583754" duration="3398000" />
+      <workItem from="1716816010315" duration="504000" />
+      <workItem from="1716816533463" duration="365000" />
+      <workItem from="1716825683357" duration="273000" />
+      <workItem from="1716825969146" duration="141000" />
+      <workItem from="1716826131382" duration="12433000" />
+      <workItem from="1717506427528" duration="25000" />
+      <workItem from="1717507100876" duration="34000" />
+      <workItem from="1717592465571" duration="171000" />
+      <workItem from="1717593070066" duration="468000" />
+      <workItem from="1717593891244" duration="178000" />
+      <workItem from="1718048610950" duration="23000" />
+      <workItem from="1718107888076" duration="28000" />
+      <workItem from="1718195564524" duration="79000" />
+      <workItem from="1718640579216" duration="148000" />
+      <workItem from="1718802707482" duration="1436000" />
+      <workItem from="1723516880747" duration="879000" />
+      <workItem from="1723517958213" duration="325000" />
+    </task>
+    <task id="LOCAL-00001" summary="fixed files">
+      <option name="closed" value="true" />
+      <created>1708004954050</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708004954050</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Graphics first 3 lessons">
+      <option name="closed" value="true" />
+      <created>1715862677354</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715862677354</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Graphics first 3 lessons">
+      <option name="closed" value="true" />
+      <created>1715862691024</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715862691024</updated>
+    </task>
+    <task id="LOCAL-00004" summary="basketball">
+      <option name="closed" value="true" />
+      <created>1716089102639</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716089102639</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commented">
+      <option name="closed" value="true" />
+      <created>1716305277404</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716305277404</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added Clouds">
+      <option name="closed" value="true" />
+      <created>1716382861596</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716382861596</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fixed bug and added comments">
+      <option name="closed" value="true" />
+      <created>1716383669045</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716383669045</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Pong">
+      <option name="closed" value="true" />
+      <created>1716470548813</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716470548813</updated>
+    </task>
+    <task id="LOCAL-00009" summary="final lesson">
+      <option name="closed" value="true" />
+      <created>1716826856641</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1716826856641</updated>
+    </task>
+    <task id="LOCAL-00010" summary="review">
+      <option name="closed" value="true" />
+      <created>1716901570404</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1716901570404</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="fixed files" />
+    <MESSAGE value="Graphics first 3 lessons" />
+    <MESSAGE value="basketball" />
+    <MESSAGE value="commented" />
+    <MESSAGE value="added clouds" />
+    <MESSAGE value="added Clouds" />
+    <MESSAGE value="fixed bug and added comments" />
+    <MESSAGE value="Pong" />
+    <MESSAGE value="final lesson" />
+    <MESSAGE value="review" />
+    <option name="LAST_COMMIT_MESSAGE" value="review" />
+  </component>
+</project>
